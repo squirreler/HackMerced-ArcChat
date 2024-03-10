@@ -5,7 +5,7 @@ import random as rand
 
 MESSAGES = ""
 
-app = Flask(__name__,template_folder='C:\\Users\\anbha\\OneDrive\\Documents\\Projects\\chatbot\\templates')
+app = Flask(__name__,template_folder='templates')
 
 
 
@@ -20,7 +20,7 @@ def index():
 
 def process_form():
 
-    file_path = "C:\\Users\\anbha\\OneDrive\\Documents\\Projects\\chatbot\\messages.txt"
+    file_path = "messages.txt"
     msg = request.form['Message']
     
     out = ""
