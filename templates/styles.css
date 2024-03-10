@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(#B6C7F0, #C5B7F1, #DAB2F0);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+pre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 1.5rem;
+    padding: 1%;
+}
+
+#Message {
+    width: 30rem;
+    height: 1.5rem;
+}
+
+#form{
+    text-align: center;
+}
